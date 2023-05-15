@@ -1,7 +1,15 @@
 #!/usr/bin/python3
 import cmd
+from models.base_model import BaseModel
+"""
+Module Console
+"""
+
+
 class HBNBCommand(cmd.Cmd):
+    """Class cmd"""
     prompt = '(hbnb) '
+    __valid_classes = ["BaseModel"]
     def do_quit(self, line):
         """Exits the program"""
         return True
@@ -12,8 +20,15 @@ class HBNBCommand(cmd.Cmd):
         """Does Nothing"""
         pass
     def do_create(self, line):
-        """Creates a new instance"""
-        pass
+        """Creates a new instance of a class"""
+        command = line.split(" ")
+        if commands[0] = "":
+            print("** class name missing **")
+        elif command[0] not in self.__valid_classes:
+            print("** class doesn't exist **")
+        else:
+            if command[0] = "BaseModel":
+                x = BaseModel()
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
