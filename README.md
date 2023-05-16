@@ -1,6 +1,7 @@
 A project to create an AirBnb clone initiated by ALXSE program.
 
 Using Ubuntu 20.04
+
 Welcome to the AirBnB clone project! This project is a complete web application, integrating database storage, a back-end API, and front-end interfacing in a clone of AirBnB.
 
 This repository currently only implements the back-end console.
