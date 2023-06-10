@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-import cmd
-from models.base_model import BaseModel
 
 """
-Module Console
+Module Console containing class HBNBCommand
 """
+
+
+import cmd
+from models.base_model import BaseModel
 
 
 class HBNBCommand(cmd.Cmd):
