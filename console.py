@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-
 """
+Using Module Cmd and
 Module Console containing class HBNBCommand
 """
 
